@@ -1,11 +1,16 @@
 
 
 
--- Solution
+-- Solution solved
 
 
 select p.firstName, p.lastName, a.city, a.[state]
 from easy.Person P left join easy.Address A on P.personId=A.personId
+
+select p.firstName, p.lastName, a.city, a.[state]
+from easy.Person P left join easy.Address A on P.personId=A.personId
+
+
 
 
 
